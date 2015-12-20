@@ -13,8 +13,9 @@ Also included: Gulp, Webpack, E2E+Unit Testing, Browser-Sync, Angular UI-Router,
 
 ```
 git clone https://github.com/fa137/TypeScript-FullStack.git
-
-npm install && bower install
+cd TypeScript-FullStack\
+npm install && bower install && tsd install
+npm start
 ```
 
 ### Basics:
