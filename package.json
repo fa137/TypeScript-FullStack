@@ -11,7 +11,7 @@
     "test": "gulp test"
   },
   "devDependencies": {
-    "awesome-typescript-loader": "~0.14.0",
+    "awesome-typescript-loader": "davidmiani/awesome-typescript-loader#withdist",
     "browser-sync": "~2.9.11",
     "browser-sync-spa": "~1.0.3",
     "chalk": "~1.1.1",
