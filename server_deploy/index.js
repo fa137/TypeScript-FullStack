@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(pubDir));
 app.get('/api', function (req, res, next) {
     res.json({
-        api: 'Data served from backend server via port:3000 proxy'
+        api: 'Data served from backend server via port:2000 proxy'
     });
 });
 app.get('/', function (req, res, next) {
@@ -43,4 +43,4 @@ app.use(function (error, req, res, next) {
     });
     return null;
 });
-app.listen(3000);
+app.listen(2000);
